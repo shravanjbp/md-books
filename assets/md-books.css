@@ -1,0 +1,121 @@
+.md-book-search {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.md-book-search legend {
+	text-align: center;
+}
+
+.md-book-search .box {
+	padding: 0.5rem;
+}
+
+.md-book-search .box-btn {
+	clear: both;
+	text-align: center;
+}
+
+.md-book-search .box-btn input {
+	margin-top: 1rem;
+}
+
+.md-book-search label {
+	display: inline;
+}
+
+.md-book-search input, .md-book-search select {
+	display: inline-block;
+	width: 100%;
+	padding: 1rem;
+}
+
+@media all and (min-width: 35rem) and (max-width: 60rem) {
+	.md-book-search .box {
+		float: left;
+		width: 45%;
+	}
+
+	.md-book-search label {
+		display: block;
+	}
+}
+
+@media all and (min-width:60rem) {
+	.md-book-search label {
+		display: inline;
+		float: left;
+		width: 7rem;
+	}
+
+	.md-book-search .box {
+		width: 45%;
+		float: left;
+	}
+
+	.md-book-search input, .md-book-search select {
+		width: 50%;
+	}
+}
+
+.bh-stars {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+}
+.bh-stars .bh-star {
+  width: 3rem;
+  height: 3rem;
+}
+.bh-stars .bh-star .outline {
+  fill: gold;
+}
+.bh-stars .bh-star .full,
+.bh-stars .bh-star .left-half {
+  fill: transparent;
+}
+.bh-stars[data-bh-rating^="1"] .bh-star--1 .full {
+  fill: gold;
+}
+.bh-stars[data-bh-rating^="2"] .bh-star--1 .full {
+  fill: gold;
+}
+.bh-stars[data-bh-rating^="3"] .bh-star--1 .full {
+  fill: gold;
+}
+.bh-stars[data-bh-rating^="4"] .bh-star--1 .full {
+  fill: gold;
+}
+.bh-stars[data-bh-rating^="5"] .bh-star--1 .full {
+  fill: gold;
+}
+.bh-stars[data-bh-rating^="2"] .bh-star--2 .full {
+  fill: gold;
+}
+.bh-stars[data-bh-rating^="3"] .bh-star--2 .full {
+  fill: gold;
+}
+.bh-stars[data-bh-rating^="4"] .bh-star--2 .full {
+  fill: gold;
+}
+.bh-stars[data-bh-rating^="5"] .bh-star--2 .full {
+  fill: gold;
+}
+.bh-stars[data-bh-rating^="3"] .bh-star--3 .full {
+  fill: gold;
+}
+.bh-stars[data-bh-rating^="4"] .bh-star--3 .full {
+  fill: gold;
+}
+.bh-stars[data-bh-rating^="5"] .bh-star--3 .full {
+  fill: gold;
+}
+.bh-stars[data-bh-rating^="4"] .bh-star--4 .full {
+  fill: gold;
+}
+.bh-stars[data-bh-rating^="5"] .bh-star--4 .full {
+  fill: gold;
+}
+.bh-stars[data-bh-rating^="5"] .bh-star--5 .full {
+  fill: gold;
+}
