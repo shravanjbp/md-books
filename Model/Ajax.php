@@ -81,10 +81,12 @@ class Ajax {
 		
 		ob_start();
 
+		$i = 1;
 		if( $md_query->have_posts()) :
 			while( $md_query->have_posts() ):
 				$md_query->the_post();
 				require MDBOOKS_PLUGIN_PATH.'Views'.DIRECTORY_SEPARATOR.'result.php';
+				$i++;
 			endwhile;
 			wp_reset_postdata();
 		else :

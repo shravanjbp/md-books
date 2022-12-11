@@ -1,5 +1,5 @@
 <tr>
-	<td>1</td>
+	<td><?php echo $i; ?></td>
 	<td><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></td>
 	<td>$<?php echo get_post_meta(get_the_ID(), 'md_book_price', true); ?></td>
 	<td><?php echo get_the_term_list(get_the_ID(), 'md-author');?></td>
